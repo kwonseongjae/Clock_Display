@@ -16,7 +16,7 @@
 ### 12. 오른쪽 하단 버튼 3개 구현
 ### 13. 검정바탕에 흰색 숫자, 검정바탕에 노란색 숫자, 초록바탕에 흰색 숫자 선택가능
 
-<img width="80%" src="https://github.com/kwonseongjae/Clock_Display/assets/18046794/4effb57f-aed7-4f9e-ba9e-8d683c6abe0c"/>
+<img width="80%" src="https://github.com/kwonseongjae/Clock_Display/assets/18046794/c0392295-dbf6-4155-b0ae-c880c0f09ebc)"/>
 
 #### 프로그램 실행순서
 #### 1. git clone
@@ -33,3 +33,4 @@
 
 ### clock.exe와 clock_reverse.exe 실행 시 종료하고 싶으면 esc로 종료 가능, 하지만 watchdog프로그램이 실행 중이기 때문에 5초 후 다시 켜집니다.
 ### watchdog.exe와 clock.exe 프로세스 2개를 종료해야지만 프로그램 종료됨.
+### window실행시 자동 실행 하려면 win + r 입력, shell:startup 입력 후에 시작프로그램폴더 안에 watchdog.exe폴더 옮겨두면 재시작 시 자동실행 
