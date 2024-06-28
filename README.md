@@ -18,7 +18,7 @@
 
 <img width="80%" src="https://github.com/kwonseongjae/Clock_Display/assets/18046794/c0392295-dbf6-4155-b0ae-c880c0f09ebc)"/>
 
-#### 프로그램 실행순서
+## 프로그램 실행순서
 #### 1. git clone
 #### 2. 경로는 C드라이브 최상단 고정, C:/Clock_Display
 #### 3. exe파일로 실행되게끔 설정해놨지만, 용량문제로 py파일을 직접 exe파일로 변환해서 사용해야합니다
@@ -31,6 +31,7 @@
 ####    pyinstaller --onefile --noconsole --add-data "C:/Clock_Display/DSEG7Classic-Bold.ttf;." watchdog.py 실행 후 watchdog.exe 파일 생성
 ####    dist폴더 안에 2개의 exe파일을 main1,sub2폴더 안으로 복사/붙여넣기 후, watchdog.exe 실행
 
+## 주의사항
 ### clock.exe와 clock_reverse.exe 실행 시 종료하고 싶으면 esc로 종료 가능, 하지만 watchdog프로그램이 실행 중이기 때문에 5초 후 다시 켜집니다.
 ### watchdog.exe와 clock.exe 프로세스 2개를 종료해야지만 프로그램 종료됨.
 ### window실행시 자동 실행 하려면 win + r 입력, shell:startup 입력 후에 시작프로그램폴더 안에 watchdog.exe폴더 옮겨두면 재시작 시 자동실행 
