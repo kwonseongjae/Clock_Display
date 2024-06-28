@@ -1,0 +1,22 @@
+mini pc디스플레이가1, 연결된 LED가 디스플레이2 일때
+
+1. win+r  -> shell:startup
+2. C:/Clock_Display/main1,sub2/watchdog.exe 파일 복사 후 재부팅 
+3. 재부팅 후 프로그램 자동 시작
+
+프로그램 종료 하고싶으면 "ESC" 버튼 클릭
+
+-----------------------------------------
+mini pc디스플레이가2, 연결된 LED가 디스플레이1 일때
+
+1. win+r  -> shell:startup
+2. C:/Clock_Display/main2,sub1/watchdog_reverse.exe 파일 복사 후 재부팅 
+3. 재부팅 후 프로그램 자동 시작
+
+프로그램 종료 하고싶으면 "ESC" 버튼 클릭
+
+-----------------------------------------
+
+프로그램 위치는
+C드라이브 최상단 고정
+C:/Clock_Display

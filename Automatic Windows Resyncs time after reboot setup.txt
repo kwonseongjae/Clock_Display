@@ -1,0 +1,10 @@
+1. win + r
+2. taskschd.msc입력
+3. 오른쪽 위 기본작업만들기 클릭
+4. 이름 : Time Sync on Startup
+5. 설명 : Time Sync on Startup
+6. 트리거 : 컴퓨터 시작
+7. 작업 : 프로그램 시작
+8. 프로그램 시작 -> 프로그램/스크립터  : w32tm 입력
+9. 인수 추가(옵션)  : /resync 입력
+10. 마침 -> 마침
