@@ -10,8 +10,8 @@
 ### 6. 시 분 초 (연, 월x => 추가가능)
 ### 7. log기록
 ### 8. main program 감시하는 watchdog프로그램
-### 9. watchdog 실행 시, main program 감시, 실행되지 않았으면(5초마다) 오류 메세지 후, main program 실행
-### 10. main program 실행 시, watchdog 감시, 실행되지 않았으면(5초마다) 오류 메세지 후, watchdog 실행
+### 9. watchdog 실행 시, main program 감시, 실행되지 않았으면(5초마다) 오류 메세지 발생 및 log기록 후, main program 실행
+### 10. main program 실행 시, watchdog 감시, 실행되지 않았으면(5초마다) 오류 메세지 발생 및 log기록 후, watchdog 실행
 ### 11. Display 1에 실행화면 띄울 지 ,Display 2에 실행화면 띄울지 선택
 ### 12. 오른쪽 하단 버튼 3개 구현
 ### 13. 검정바탕에 흰색 숫자, 검정바탕에 노란색 숫자, 초록바탕에 흰색 숫자 선택가능
@@ -30,3 +30,6 @@
 #### 6-2.  디스플레이2에 띄울 시 , pyinstaller --onefile --noconsole --add-data "C:/Clock_Display/DSEG7Classic-Bold.ttf;." clock.py 실행 후 clock.exe파일 생성, 
 ####    pyinstaller --onefile --noconsole --add-data "C:/Clock_Display/DSEG7Classic-Bold.ttf;." watchdog.py 실행 후 watchdog.exe 파일 생성
 ####    dist폴더 안에 2개의 exe파일을 main1,sub2폴더 안으로 복사/붙여넣기 후, watchdog.exe 실행
+
+### clock.exe와 clock_reverse.exe 실행 시 종료하고 싶으면 esc로 종료 가능, 하지만 watchdog프로그램이 실행 중이기 때문에 5초 후 다시 켜집니다.
+### watchdog.exe와 clock.exe 프로세스 2개를 종료해야지만 프로그램 종료됨.
