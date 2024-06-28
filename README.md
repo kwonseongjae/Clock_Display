@@ -15,3 +15,7 @@
 ### 11. Display 1에 실행화면 띄울 지 ,Display 2에 실행화면 띄울지 선택
 ### 12. 오른쪽 하단 버튼 3개 구현
 ### 13. 검정바탕에 흰색 숫자, 검정바탕에 노란색 숫자, 초록바탕에 흰색 숫자 선택가능
+
+<img width="80%" src="https://github.com/kwonseongjae/Clock_Display/assets/18046794/4effb57f-aed7-4f9e-ba9e-8d683c6abe0c"/>
+
+
