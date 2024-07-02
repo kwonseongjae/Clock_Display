@@ -35,3 +35,9 @@
 ### clock.exe와 clock_reverse.exe 실행 시 종료하고 싶으면 esc로 종료 가능, 하지만 watchdog프로그램이 실행 중이기 때문에 5초 후 다시 켜집니다.
 ### watchdog.exe와 clock.exe 프로세스 2개를 종료해야지만 프로그램 종료됨.
 ### window실행시 자동 실행 하려면 win + r 입력, shell:startup 입력 후에 시작프로그램폴더 안에 watchdog.exe폴더 옮겨두면 재시작 시 자동실행 
+
+
+## 2024/07-02 업데이트
+### 기존 FHD -> 해상도 변경에 따른 자동 동기화
+### 해상도에 맞춤 font size 변경
+### 해상도 변경시 변경된 해상도와 font size 출력
