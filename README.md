@@ -41,3 +41,4 @@
 ### 기존 FHD -> 해상도 변경에 따른 자동 동기화
 ### 해상도에 맞춤 font size 변경
 ### 해상도 변경시 변경된 해상도와 font size 출력
+### clock_autosize_winproc_refresh.py , watchdog_autosize.py  || clock_autosize_winproc_reverse_refresh.py , watchdog_autosize_reverse.py 추가 
